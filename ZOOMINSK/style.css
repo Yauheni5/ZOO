@@ -44,11 +44,20 @@ header ul.menu-list{
 	margin-left:-5px;
 	border-left: 3px solid #228b22;	
 }
-.menu-list	a.about-us{
+.menu-list .about-us a{
 	margin: 0px;
 }
 .menu-list a:hover {
 	background: yellow;
+}
+ul.menu-list li ul{
+	display: none;
+}
+ul.menu-list li:hover ul {
+	display: block;
+	position: absolute;
+	width: 200px;
+	background-color: #269926;
 }
 .menu-list li a.gr-wo:hover {
 	color: #228b22;
