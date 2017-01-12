@@ -49,3 +49,19 @@ header ul.menu-list{
 	border-top-right-radius: 10px;
 	background: #51ac61;
 }
+.slider-img{
+	width:980px;
+	margin-left: -5px;
+	height: 420px; 
+	background-image: url(images/slider1.jpg);
+	background-repeat: no-repeat;
+	border-radius: 10px;
+}
+.slider-img img {
+	background-color: rgba(36, 32, 27, 0.9);
+	padding-right: 10px;
+	padding-bottom: 15px;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 10px;
+	margin-bottom: 20px;
+}
