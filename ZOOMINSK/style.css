@@ -5,6 +5,7 @@ body{
 	box-sizing: border-box;
 	padding:0px;
 	margin: 0px;
+	cursor: url(images/cursor.png), default;
 }
 .content{
 	width: 1000px;
@@ -12,6 +13,14 @@ body{
 	margin:0 auto;
 	padding-top: 10px;
 	padding-left: 40px;
+}
+header {
+	width: 981px;
+	background: #19160e;
+	padding: 0px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
 }
 .time-work {
 	font-size: 12px;
@@ -35,6 +44,9 @@ header ul.menu-list{
 	margin-left:-5px;
 	border-left: 3px solid #228b22;	
 }
+.menu-list	a.about-us{
+	margin: 0px;
+}
 .menu-list a:hover {
 	background: yellow;
 }
@@ -50,8 +62,6 @@ header ul.menu-list{
 	background: #51ac61;
 }
 .slider-img{
-	width:980px;
-	margin-left: -5px;
 	height: 420px; 
 	background-image: url(images/slider1.jpg);
 	background-repeat: no-repeat;
@@ -64,4 +74,30 @@ header ul.menu-list{
 	border-bottom-right-radius: 30px;
 	border-top-left-radius: 10px;
 	margin-bottom: 20px;
+}
+.menu-news li{
+	display: inline-block;
+}
+.menu-news li{
+	text-decoration: none;
+	color:white;
+	font-size: 14px;
+	font-weight: 100;
+	padding:10px 28px;
+	line-height: 20px;
+	background: #7cb45a;
+	margin-left:-5px;
+	border-left: 1px solid #228b22;	
+}
+.menu-news li:first-child{
+	margin: 0px;
+	border: none;
+}
+.menu-news a {
+	text-decoration: none;
+	color:white;
+}
+header ul.menu-news{
+	margin: 10px 0px 10px 0px;
+	padding: 0px;
 }
