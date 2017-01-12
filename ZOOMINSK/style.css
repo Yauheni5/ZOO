@@ -72,13 +72,34 @@ ul.menu-list li:hover ul a{
 .menu-list li a.gr-wo:hover {
 	color: #228b22;
 }
-.menu-list li:first-child a{
+.menu-list li:first-child.first-list>a{
 	border: none;
 	border-top-left-radius: 10px;
 }
-.menu-list li:last-child a{
+.menu-list li:last-child.first-list>a{
 	border-top-right-radius: 10px;
 	background: #51ac61;
+}
+header .menu-list li ul a{
+	color: #c5f442;
+	padding: 10px;
+	line-height: 10px;
+	margin-left: -10px;
+}
+header .menu-list li ul a:hover{
+	background-color: #7cb45a;
+	padding: 10px;
+	line-height: 10px;
+	margin-left: -10px;
+}
+header .menu-list li ul.menu-about-us a{
+	margin-left: -10px;
+}
+header .menu-list li.dynopark ul {
+	width:90px;
+}
+header .menu-list li.dynopark ul a:hover{
+	width:90px;
 }
 .slider-img{
 	width: 946px;
