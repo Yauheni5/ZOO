@@ -1,3 +1,14 @@
 body{
-	
+	background-image: url(images/back1.jpg);
+	color: white;
+	box-sizing: border-box;
+	padding:0px;
+	margin: 0px;
+}
+.content{
+	width: 970px;
+	background: #302312;
+	margin:0 auto;
+	padding-top: 10px;
+	padding-left: 30px;
 }
