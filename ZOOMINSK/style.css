@@ -1,4 +1,5 @@
 body{
+	font-family: Tahoma, Geneva, sans-serif;
 	background-image: url(images/back1.jpg);
 	color: white;
 	box-sizing: border-box;
@@ -6,9 +7,38 @@ body{
 	margin: 0px;
 }
 .content{
-	width: 970px;
+	width: 1000px;
 	background: #302312;
 	margin:0 auto;
 	padding-top: 10px;
-	padding-left: 30px;
+	padding-left: 40px;
+}
+.time-work {
+	font-size: 12px;
+	line-height: 40px;
+}
+.menu-list li{
+	display: inline-block;
+}
+header ul.menu-list{
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+.menu-list a{
+	text-decoration: none;
+	color:white;
+	font-size: 15px;
+	font-weight: bold;
+	padding:20px 20px;
+	line-height: 60px;
+	background: #7cb45a;
+	margin-left:-5px;
+	border-left: 3px solid #228b22;	
+}
+.menu-list li:first-child a{
+	border: none;
+	border-top-left-radius: 10px;
+}
+.menu-list li:last-child a{
+	border-top-right-radius: 10px;
 }
