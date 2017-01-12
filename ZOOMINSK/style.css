@@ -35,10 +35,17 @@ header ul.menu-list{
 	margin-left:-5px;
 	border-left: 3px solid #228b22;	
 }
+.menu-list a:hover {
+	background: yellow;
+}
+.menu-list li a.gr-wo:hover {
+	color: #228b22;
+}
 .menu-list li:first-child a{
 	border: none;
 	border-top-left-radius: 10px;
 }
 .menu-list li:last-child a{
 	border-top-right-radius: 10px;
+	background: #51ac61;
 }
