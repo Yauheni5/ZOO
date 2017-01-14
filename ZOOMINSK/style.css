@@ -26,8 +26,21 @@ header ul{
 	list-style: none;
 }
 .time-work {
+	width: 500px;
+	float: left;
 	font-size: 12px;
-	line-height: 40px;
+	line-height: 30px;
+}
+.language-site{
+	display: inline-block;
+	float right;
+	width: 440px;
+	line-height: 30px;
+	text-align: right;
+}
+.language-site a{
+	font-size: 10px;
+	color: #ffd738;
 }
 .menu-list li.first-list{
 	display: inline-block;
