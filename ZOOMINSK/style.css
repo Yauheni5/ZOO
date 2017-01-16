@@ -1,11 +1,11 @@
 body{
 	font-family: Tahoma, Geneva, sans-serif;
-	background-image: url(back1.jpg);
+	background-image: url(image/back1.jpg);
 	color: white;
 	box-sizing: border-box;
 	padding:0px;
 	margin: 0px;
-	cursor: url(cursor.png), default;
+	cursor: url(image/cursor.png), default;
 }
 .content{
 	width: 1000px;
@@ -26,7 +26,7 @@ header ul{
 	list-style: none;
 }
 .foto-foot-first {
-	background: url(foot1.png) center center no-repeat;
+	background: url(image/foot1.png) center center no-repeat;
 	position: absolute;
 	width:100px;
 	height: 100px;
@@ -103,7 +103,7 @@ header ul{
 	transform: rotate(125deg);
 }
 .foto-foot-second {
-	background: url(foot2.png) center center no-repeat;
+	background: url(image/foot2.png) center center no-repeat;
 	position: absolute;
 	width:100px;
 	height: 100px;
@@ -180,7 +180,7 @@ header ul{
 	transform: rotate(125deg);
 }
 .foto-foot-third {
-	background: url(foot3.png) center center no-repeat;
+	background: url(image/foot3.png) center center no-repeat;
 	position: absolute;
 	width:100px;
 	height: 100px;
@@ -373,7 +373,7 @@ header .menu-list li.dynopark ul a:hover{
 .slider-img{
 	width: 946px;
 	height: 420px;
-	background-image: url(slider1.jpg);
+	background-image: url(image/slider1.jpg);
 	background-repeat: no-repeat;
 	border-radius: 10px;
 }
