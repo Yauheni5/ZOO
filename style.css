@@ -9,7 +9,7 @@ body{
 }
 .content{
 	width: 1000px;
-	background-color: rgba(48, 35, 18, 0.6);
+	background-color: rgba(0, 0, 0, 0.65);
 	margin:0 auto;
 	padding-top: 10px;
 	padding-left: 50px;
@@ -20,7 +20,21 @@ header {
 	background-color: rgba(0,0,0,0.5);
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-
+}
+.language-site{
+	display: inline-block;
+	float right;
+	width: 440px;
+	line-height: 30px;
+	text-align: right;
+}
+.language-site a{
+	font-size: 10px;
+	color: #84b870;
+}
+body a.active-a{
+	text-decoration: none;
+	color:#fef735;
 }
 header ul{
 	list-style: none;
@@ -263,17 +277,7 @@ header ul{
 	font-size: 12px;
 	line-height: 30px;
 }
-.language-site{
-	display: inline-block;
-	float right;
-	width: 440px;
-	line-height: 30px;
-	text-align: right;
-}
-.language-site a{
-	font-size: 10px;
-	color: #ffd738;
-}
+
 .menu-list li.first-list{
 	display: inline-block;
 }
