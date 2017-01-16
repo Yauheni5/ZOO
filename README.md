@@ -1,3 +1,3 @@
 =====================
 # ZOOMinsk
-[Сайт Минского ЗООпарка](https://github.com/Yauheni5/ZOO)
+[Сайт Минского ЗООпарка](https://yauheni5.github.io/ZOO/)
