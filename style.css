@@ -354,12 +354,14 @@ header .menu-list li ul a{
 	padding: 10px;
 	line-height: 10px;
 	margin-left: -10px;
+	line-height: 20px;
 }
 header .menu-list li ul a:hover{
 	background-color: #7cb45a;
 	padding: 10px;
 	line-height: 10px;
 	margin-left: -10px;
+	line-height: 20px;
 }
 header .menu-list li ul.menu-about-us a{
 	margin-left: -10px;
