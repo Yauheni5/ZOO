@@ -144,9 +144,9 @@ header ul{
 	transform: rotate(20deg);
 }
 .second-foot5 {
-	left:1200px;
-	top:700px;
-	transform: rotate(250deg);
+	left:50px;
+	top:300px;
+	transform: rotate(-10deg);
 }
 .second-foot6 {
 	left:1200px;
