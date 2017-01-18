@@ -54,26 +54,26 @@ header ul{
 .first-foot2 {
 	left:100px;
 	top:100px;
-	transform: rotate(100deg);
+	transform: rotate(57deg);
 }
 .first-foot3 {
-	left:200px;
-	top:200px;
+	left:1200px;
+	top:50px;
 	transform: rotate(200deg);
 }
 .first-foot4 {
-	left:500px;
-	top:400px;
+	left:1200px;
+	top:120px;
 	transform: rotate(50deg);
 }
 .first-foot5 {
-	left:1200px;
+	left:1120px;
 	top:300px;
-	transform: rotate(250deg);
+	transform: rotate(20deg);
 }
 .first-foot6 {
 	left:1200px;
-	top:900px;
+	top:500px;
 	transform: rotate(125deg);
 }
 .first-foot7 {
@@ -125,8 +125,8 @@ header ul{
 }
 .second-foot1 {
 	left:100px;
-	top:0px;
-	transform: rotate(140deg);
+	top:20px;
+	transform: rotate(-30deg);
 }
 .second-foot2 {
 	left:0px;
