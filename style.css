@@ -130,17 +130,17 @@ header ul{
 }
 .second-foot2 {
 	left:0px;
-	top:200px;
-	transform: rotate(100deg);
+	top:180px;
+	transform: rotate(20deg);
 }
 .second-foot3 {
-	left:200px;
-	top:400px;
-	transform: rotate(220deg);
+	left:1130px;
+	top:70px;
+	transform: rotate(20deg);
 }
 .second-foot4 {
-	left:1100px;
-	top:1000px;
+	left:70px;
+	top:500px;
 	transform: rotate(20deg);
 }
 .second-foot5 {
@@ -149,9 +149,9 @@ header ul{
 	transform: rotate(250deg);
 }
 .second-foot6 {
-	left:1300px;
-	top:1200px;
-	transform: rotate(195deg);
+	left:1200px;
+	top:400px;
+	transform: rotate(10deg);
 }
 .second-foot7 {
 	left:1000px;
@@ -201,9 +201,9 @@ header ul{
 	z-index: -1;
 }
 .third-foot1 {
-	left:200px;
-	top:40px;
-	transform: rotate(140deg);
+	left:40px;
+	top:70px;
+	transform: rotate(240deg);
 }
 .third-foot2 {
 	left:20px;
@@ -212,22 +212,22 @@ header ul{
 }
 .third-foot3 {
 	left:100px;
-	top:400px;
+	top:250px;
 	transform: rotate(220deg);
 }
 .third-foot4 {
-	left:300px;
-	top:1000px;
-	transform: rotate(20deg);
+	left:1150px;
+	top:-10px;
+	transform: rotate(-100deg);
 }
 .third-foot5 {
-	left:1200px;
-	top:1000px;
-	transform: rotate(220deg);
+	left:1170px;
+	top:200px;
+	transform: rotate(40deg);
 }
 .third-foot6 {
-	left:1300px;
-	top:1600px;
+	left:1220px;
+	top:300px;
 	transform: rotate(295deg);
 }
 .third-foot7 {
