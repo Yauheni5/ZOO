@@ -1,23 +1,25 @@
+@import url(color.less);
 @bg-body-img: url(../images/back1.jpg);
 @cursor-img: url(../images/cursor.png);
-
+@text-decoration: none;
 
 body {
 	font-family: Tahoma, Geneva, sans-serif;
 	background-image: @bg-body-img;
-	color: white;
+	color: @white;
 	box-sizing: border-box;
 	padding: 0px;
 	margin: 0px;
 	cursor: @cursor-img, default;
 }
-.content{
-	width: 1000px;
-	background-color: rgba(0, 0, 0, 0.65);
-	margin:0 auto;
-	padding-top: 10px;
-	padding-left: 50px;
-	ul {
-		list-style: none;
+header {
+	width:947px;
+	padding:0px;
+	& a {
+		text-decoration: @text-decoration;
+		color: @white;
+		&:hover {
+
+		}
 	}
 }
