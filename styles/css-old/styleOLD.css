@@ -336,12 +336,7 @@ ul.menu-list li:hover.first-list ul.submenu-second li:hover ul.submenu-third{
 	padding: 10px;
 	line-height: 30px;
 }
-ul.menu-list li:hover ul a{
-	display: block;
-	width: 200px;
-	text-decoration: none;
-	background:none;
-}
+
 .menu-list li a.gr-wo:hover {
 	color: #228b22;
 }

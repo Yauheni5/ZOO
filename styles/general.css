@@ -7,6 +7,26 @@ body {
   margin: 0px;
   cursor: url(../images/cursor.png), default;
 }
+.time-work {
+  width: 500px;
+  font-size: 13px;
+  float: left;
+  padding-left: 40px;
+}
+.language-site {
+  width: 440px;
+  font-size: 13px;
+  float: right;
+  padding-right: 20px;
+  text-align: right;
+}
+.language-site a {
+  color: #67a63d;
+}
+.language-site a.active-a {
+  color: #dfd73a;
+  text-decoration: none;
+}
 header {
   width: 947px;
   padding: 0px;
