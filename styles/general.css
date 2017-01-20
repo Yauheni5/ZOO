@@ -1,9 +1,10 @@
 body {
   font-family: Tahoma, Geneva, sans-serif;
   background-image: url(../images/back1.jpg);
+  background-color: red;
   color: white;
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
-  cursor: url(images/cursor.png), default;
+  cursor: url(../images/cursor.png), default;
 }
