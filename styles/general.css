@@ -1,10 +1,19 @@
 body {
   font-family: Tahoma, Geneva, sans-serif;
   background-image: url(../images/back1.jpg);
-  background-color: red;
   color: white;
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
   cursor: url(../images/cursor.png), default;
+}
+.content {
+  width: 1000px;
+  background-color: rgba(0, 0, 0, 0.65);
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+.content ul {
+  list-style: none;
 }
