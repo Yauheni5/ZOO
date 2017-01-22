@@ -30,10 +30,10 @@ header {
 	width: 440px;
 	line-height: 30px;
 	text-align: right;
-}
-.language-site a{
-	font-size: 10px;
-	color:@color-menu;
+	a {
+		font-size: 10px;
+		color:@color-menu;
+	}
 }
 .time-work {
 	width: 500px;
@@ -163,9 +163,9 @@ ul.menu-list li:hover ul {
 	margin: 0px;
 	padding: 10px;
 	line-height: 30px;
-}
-ul.menu-list li:hover ul a{
-	.properties-submenu-unactive;
+	a {
+		.properties-submenu-unactive;
+	}
 }
 ul.menu-list li.first-list ul.submenu-second li ul.submenu-third{
 	display: none;
@@ -198,17 +198,17 @@ ul.menu-list li:hover ul a{
 }
 header .menu-list li ul a{
 	.properties-submenu;
-}
-header .menu-list li ul a:hover{
-	.properties-submenu;
-	color: @yellow-hover;
+	&:hover{
+		.properties-submenu;
+		color: @yellow-hover;
+	}
 }
 header .menu-list li ul.menu-about-us a{
 	margin-left: -10px;
 }
 header .menu-list li.dynopark ul {
 	width:90px;
-}
-header .menu-list li.dynopark ul a:hover{
-	width:90px;
+	a:hover{
+		width: 90px;
+	}
 }
