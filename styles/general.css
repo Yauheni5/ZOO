@@ -4,6 +4,14 @@
   height: 100px;
   z-index: -1;
 }
+.properties-submenu {
+  background-color: rgba(38, 153, 38, 0.9);
+  padding: 10px;
+  line-height: 10px;
+  margin-left: -10px;
+  line-height: 20px;
+  color: #80c155;
+}
 body {
   font-family: Tahoma, Geneva, sans-serif;
   background-image: url(../images/back1.jpg);
@@ -88,7 +96,7 @@ header ul {
   transform: rotate(125deg);
 }
 .first-foot7 {
-  top: 1000px;
+  top: 100px;
   left: 1000px;
   transform: rotate(125deg);
 }
@@ -190,7 +198,7 @@ header ul.menu-list {
 }
 .menu-list .first-list > a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   font-size: 15px;
   font-weight: bold;
   padding: 20px 20px;
@@ -203,7 +211,7 @@ header ul.menu-list {
   margin: 0px;
 }
 .menu-list .first-list > a:hover {
-  background: #ffd738;
+  background: #dfd73a;
 }
 ul.menu-list li ul {
   display: none;
@@ -213,7 +221,7 @@ ul.menu-list li:hover ul {
   display: block;
   position: absolute;
   width: 200px;
-  background-color: rgba(38, 153, 38, 0.9);
+  background-color: rgba(28, 112, 28, 0.9);
   margin: 0px;
   padding: 10px;
   line-height: 30px;
@@ -234,7 +242,7 @@ ul.menu-list li:hover.first-list ul.submenu-second li:hover ul.submenu-third {
   top: 0px;
   left: 220px;
   width: 200px;
-  background-color: rgba(38, 153, 38, 0.9);
+  background-color: rgba(28, 112, 28, 0.9);
   margin: 0px;
   padding: 10px;
   line-height: 30px;
@@ -257,18 +265,21 @@ ul.menu-list li:hover ul a {
   background: #51ac61;
 }
 header .menu-list li ul a {
-  color: #c5f442;
+  background-color: rgba(38, 153, 38, 0.9);
   padding: 10px;
   line-height: 10px;
   margin-left: -10px;
   line-height: 20px;
+  color: #80c155;
 }
 header .menu-list li ul a:hover {
-  background-color: #7cb45a;
+  background-color: rgba(38, 153, 38, 0.9);
   padding: 10px;
   line-height: 10px;
   margin-left: -10px;
   line-height: 20px;
+  color: #80c155;
+  color: #dfd73a;
 }
 header .menu-list li ul.menu-about-us a {
   margin-left: -10px;
@@ -278,43 +289,4 @@ header .menu-list li.dynopark ul {
 }
 header .menu-list li.dynopark ul a:hover {
   width: 90px;
-}
-.slider-img {
-  width: 946px;
-  height: 420px;
-  background-image: url(image/slider1.jpg);
-  background-repeat: no-repeat;
-  border-radius: 10px;
-}
-.slider-img img {
-  background-color: rgba(36, 32, 27, 0.5);
-  padding-right: 10px;
-  padding-bottom: 15px;
-  border-bottom-right-radius: 30px;
-  border-top-left-radius: 10px;
-  margin-bottom: 20px;
-}
-.menu-news li {
-  display: inline-block;
-  text-decoration: none;
-  color: white;
-  font-size: 15px;
-  font-weight: 100;
-  padding: 10px 16px;
-  line-height: 20px;
-  background: #7cb45a;
-  margin-left: -5px;
-  border-left: 3px solid #228b22;
-}
-.menu-news li:first-child {
-  margin: 0px;
-  border: none;
-}
-.menu-news a {
-  text-decoration: none;
-  color: white;
-}
-header ul.menu-news {
-  margin: 10px 0px 10px 0px;
-  padding: 0px;
 }
