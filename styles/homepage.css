@@ -12,6 +12,12 @@
   line-height: 20px;
   color: #80c155;
 }
+.properties-submenu-unactive {
+  display: block;
+  width: 200px;
+  text-decoration: none;
+  background: none;
+}
 .slider-img {
   height: 420px;
   background-image: url(../images/slider1.jpg);

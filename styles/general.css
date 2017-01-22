@@ -12,6 +12,12 @@
   line-height: 20px;
   color: #80c155;
 }
+.properties-submenu-unactive {
+  display: block;
+  width: 200px;
+  text-decoration: none;
+  background: none;
+}
 body {
   font-family: Tahoma, Geneva, sans-serif;
   background-image: url(../images/back1.jpg);

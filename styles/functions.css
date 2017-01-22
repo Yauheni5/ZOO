@@ -12,3 +12,9 @@
   line-height: 20px;
   color: #80c155;
 }
+.properties-submenu-unactive {
+  display: block;
+  width: 200px;
+  text-decoration: none;
+  background: none;
+}
