@@ -1,0 +1,23 @@
+{
+  "name": "zoo",
+  "version": "1.0.0",
+  "description": "===================== # ZOOMinsk DEMO: [Сайт Минского ЗООпарка](https://yauheni5.github.io/ZOO/)",
+  "main": "index.js",
+  "dependencies": {
+    "pkg": "^3.0.0-beta.25"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Yauheni5/ZOO"
+  },
+  "author": "KING",
+  "license": "ISC"
+}
